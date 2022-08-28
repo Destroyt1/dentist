@@ -1,0 +1,131 @@
+@media (max-width: 1325px) {
+  .header-container {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    margin-right: 13px;
+    width: 238px;
+}
+.header__logo-img {
+  width: 73px;
+  height: 72px;
+}
+
+.header__logo-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  width: 153px;
+}
+
+.header-list__item {
+  width: 190px;
+}
+
+.header-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-item-text {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.header__social {
+    margin-right: 20px;
+    width: 76px;
+    flex-wrap: nowrap;
+}
+
+  .header-list {
+    margin-right: 0px;
+}
+
+.header-phone-text {
+  padding-left: 14px;
+}
+
+.top__list {
+  bottom: -110px;
+}
+
+.consultation__list-item {
+  width: 310px;
+  margin-bottom: 40px;
+}
+
+.consultation__list-bg1 {
+  background-size: 300px 200px;
+}
+.consultation__list-bg2 {
+  background-size: 300px 200px;
+}
+.consultation__list-bg3 {
+  background-size: 300px 200px;
+}
+.consultation__list-title {
+  padding-top: 200px;
+  width: 310px;
+}
+
+.stocks__list-item {
+  width: 300px;
+  height: 300px;
+}
+
+.stocks_bg1 {
+  background-size: 300px 300px;
+}
+.stocks_bg2 {
+  background-size: 300px 300px;
+}
+.stocks_bg3 {
+  background-size: 300px 300px;
+}
+
+.services__list-item {
+  width: 100%;
+}
+
+.services__list-item-social {
+  right: 310px;
+}
+
+.services__list-item-btn {
+  right: 250px;
+}
+.srvices__bg {
+  background-position: right top;
+}
+
+.services__list-item:not(:nth-child(2n)) {
+  margin-right: 0;
+}
+
+.services__centr-block-left-title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.services__centr-block {
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.services__centr-block-left {
+  margin-right: 0;
+  align-items: center;
+}
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .srvices__bg {
+    background-position: 700px 60px;
+  }
+}

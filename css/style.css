@@ -174,7 +174,7 @@ body {
 }
 
 .header__social {
-  margin-right: 60px;
+  margin-right: 65px;
 }
 .header__social-svg {
   margin-right: 9px;
@@ -532,7 +532,6 @@ body {
 }
 
 .services__list-item-social {
-  justify-content: flex-end;
   align-items: center;
 }
 .services__teleg {
@@ -678,13 +677,14 @@ body {
   padding: 18px 27px 18px 150px;
   width: 770px;
   border-radius: 20px;
+  display: inline-block;
 }
 .services__bott-list-item:not(:last-child) {
   margin-bottom: 30px;
 }
 
 .servic-item1 {
-  margin-left: 80px;
+  transform: translate(80px);
   background-image: url(../img/serviceselips1.png);
   background-repeat: no-repeat;
   background-position: 30px center;
@@ -698,7 +698,7 @@ body {
 }
 
 .servic-item2 {
-  margin-left: 190px;
+  transform: translate(190px);
   background-image: url(../img/serviceselips2.png);
   background-repeat: no-repeat;
   background-position: 30px center;
@@ -714,7 +714,7 @@ body {
 }
 
 .servic-item3 {
-  margin-left: 300px;
+  transform: translate(300px);
   background-image: url(../img/serviceselips2.png);
   background-repeat: no-repeat;
   background-position: 30px center;
@@ -730,7 +730,7 @@ body {
 }
 
 .servic-item4 {
-  margin-left: 410px;
+  transform: translate(410px);
   background-image: url(../img/serviceselips2.png);
   background-repeat: no-repeat;
   background-position: 30px center;
