@@ -1337,9 +1337,6 @@ body {
   padding-top: 30px;
   padding-bottom: 26px;
 }
-.footer__logo {
-  align-items: center;
-}
 
 .footer__nav {
   align-items: center;
@@ -1347,7 +1344,8 @@ body {
 
 .footer__logo {
   align-items: center;
-  margin-right: 233px;
+  align-items: center;
+  margin-right: 210px;
 }
 .footer__logo-img {
   margin-right: 15px;
