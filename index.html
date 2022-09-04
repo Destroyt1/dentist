@@ -1337,10 +1337,10 @@
               В ходе консультации вы получите 2-3 плана качественного лечения под ваш бюджет
             </p>
             <div class="record__form">
-              <form class="footer__form" action="aend.php" method="post">
-                <input class="record__form-element form-input" type="text" name="name" placeholder="Имя*" required>
-                <input class="record__form-element form-input" type="tel" name="Phone" placeholder="Телефона*" required>
-                <input class="record__btn btn-reset" type="submit" value="Записаться">
+              <form class="footer__form" action="mail.php" method="post" enctype="multipart/form-data">
+                <input class="record__form-element form-input input-name" data-validate-field="name" type="text" name="Имя" placeholder="Имя*" required>
+                <input class="record__form-element form-input input-tel" data-validate-field="tel" type="tel" name="Телефон" placeholder="Телефона*" required>
+                <button class="record__btn btn-reset button">Записаться</button>
               </form>
             </div>
           </div>
@@ -1451,6 +1451,9 @@
     </footer>
   </main>
 
+  <script src="libs/inputmask.min.js"></script>
+  <script src="libs/just-validate.min.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>
